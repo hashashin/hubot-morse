@@ -1,0 +1,40 @@
+{
+  "name": "hubot-morse",
+  "description": "Encode and decode morse",
+  "version": "1.0.0",
+  "author": "hashashin <gentoo.power@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hashashin/hubot-morse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hashashin/hubot-morse/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.12",
+    "xmorse": "0.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "~0.13.2",
+    "grunt-release": "~0.14.0",
+    "hubot": "^2.18.0",
+    "hubot-test-helper": "^1.4.4",
+    "matchdep": "~1.0.1",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test",
+    "watch": "grunt watch"
+  }
+}
