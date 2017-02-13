@@ -17,12 +17,12 @@ describe 'morse', ->
     @room.user.say('alice', '@hubot encode sos').then =>
       expect(@room.messages).to.eql [
         ['alice', '@hubot encode sos']
-        ['hubot', '@alice .../---/...']
+        ['hubot', '@alice ... --- ...']
       ]
 
   it 'decode morse', ->
-    @room.user.say('alice', '@hubot decode .../---/...').then =>
+    @room.user.say('alice', '@hubot decode ... --- ...').then =>
       expect(@room.messages).to.eql [
-        ['alice', '@hubot decode .../---/...']
+        ['alice', '@hubot decode ... --- ...']
         ['hubot', '@alice SOS']
       ]
