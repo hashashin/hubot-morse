@@ -1,15 +1,12 @@
 # Description
 #   Encode and decode morse
 #
-# Configuration:
-#   LIST_OF_ENV_VARS_TO_SET - Describe any optional/required environment variables.
-#
 # Commands:
-#   hubot hello - <what the respond trigger does>
-#   orly - <what the hear trigger does>
+#   hubot encode <text> - encodes the given text to morse code
+#   hubot decode <text> - decodes the given text from morse code
 #
 # Notes:
-#   <optional notes required for the script>
+#   morse format example: .../---/... equal SOS
 #
 # Author:
 #   hashashin
