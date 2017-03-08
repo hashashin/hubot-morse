@@ -1,14 +1,14 @@
 # Description
 #   Encode and decode morse
 #
-# Commands:
-#   hubot encode <text> - encodes the given text to morse code
-#   hubot decode <text> - decodes the given text from morse code
-#
-# Optional Configuration:
+# Configuration:
 #   HUBOT_MORSE_SPACE - symbol for space, default: ' '
 #   HUBOT_MORSE_LONG - symbol for long, default '-'
 #   HUBOT_MORSE_SHORT - symbol for short, default '.'
+#
+# Commands:
+#   hubot encode <text> - encodes the given text to morse code
+#   hubot decode <text> - decodes the given text from morse code
 #
 # Notes:
 #   morse format example: ... --- ... = SOS
