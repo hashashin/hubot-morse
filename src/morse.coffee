@@ -26,8 +26,8 @@ module.exports = (robot) ->
     short: process.env.HUBOT_MORSE_SHORT || '.'
 
   robot.respond /encode (.*)/i, (msg) ->
-    msg.reply xmorse.encode(msg.match[1], option)
+    msg.send xmorse.encode(msg.match[1], option)
 
   robot.respond /decode (.*)/i, (msg) ->
-    msg.reply xmorse.decode(msg.match[1], option)
+    msg.send xmorse.decode(msg.match[1], option)
 
